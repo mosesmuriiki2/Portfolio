@@ -307,6 +307,21 @@ h6{font-size: 16px;}
 	background-color: var(--submitBtn);
 	border: none;
 }
+.footer{
+	display: grid;
+	background-color:var(--previewBg);
+	height: 90x;
+	font-size: 2rem;
+	font-family: sans-serif;
+	 border: 1px solid var(--boderColor);
+	-webkit-box-shadow: -1px 1px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: space-between;
+    border-radius: 5px;
+}
+#
 @media screen and(max-width: 1200px){
 	.main-container{
 		width: 95%;
